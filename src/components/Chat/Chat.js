@@ -4,7 +4,7 @@ import socketIo from "socket.io-client";
 import Message from "../Message/Message";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 import "./chat.css";
-const ENDPOINT = "http://localhost:3001/";
+const ENDPOINT = "https://cchat-backend-lfnl.onrender.com/";
 let socket;
 const Chat = () => {
   const location = useLocation();
