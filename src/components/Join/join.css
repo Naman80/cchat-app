@@ -1,0 +1,55 @@
+  .joinPage{
+    border: .3rem solid black;
+    background-color: rgba(244, 91, 105, 1);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.mark_line{
+  width: 70%;
+  height: .2rem;
+  background-color: black;
+  border: none;
+}
+  .joinContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(69, 105, 144, 1);
+    height: 50%;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px black;
+    align-items: center;
+    justify-content: center;
+  }
+  .joinInput{
+    outline: none;
+    height: 2rem;
+    width: 70%;
+    font-size: 100%;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 2px 2px black;
+    margin: 2rem;
+  }
+.link{
+    height: 2rem;
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 2px 2px black;
+    background-color: rgba(244, 91, 105, 1);
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* <div className="joinContainer">
+<h1 className="chat_title">C CHAT</h1>
+className="joinInput" */

@@ -1,0 +1,25 @@
+.messageBox{
+
+    border: .2rem solid black;
+    background-color: white;
+    width: 50%;
+    padding:1vmax;
+    margin: 1.6vmax;
+    display: inline-block;
+    clear: both;
+}
+
+.right{
+
+    float: right;
+    background-color: crimson;
+    color: white;
+
+}
+
+
+.left{
+
+    float: left;
+    background-color: rgb(165, 254, 165);
+}
